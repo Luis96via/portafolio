@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="../../assets/img/home_page.jpeg" alt="Descripción de la imagen">
+<img src="src/assets/img/home_page.jpeg" alt="Descripción de la imagen">
 
 Built using:
 

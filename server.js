@@ -9,7 +9,11 @@ const nodemailer = require("nodemailer");
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://portafolio-lv-web.vercel.app'],
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 app.use(express.json());
 app.use("/", router);
 
